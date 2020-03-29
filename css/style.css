@@ -1,10 +1,17 @@
+/* image was obtained from https://smartasset.com/financial-advisor/permanent-portfolio */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* applying styles to header*/
+body
+{
+    background-color: blueviolet;
+}
+
+/* applying styles to header to make it look nice*/
 header
 {
     padding: 20px 35px;
@@ -43,4 +50,28 @@ header h2
     font-weight: bold;
     margin: 0;
     display: inline;
+}
+
+.image-bar
+{
+    padding: 120px;
+    background-image: url("../images/portfolio.jpg")
+    /* image was obtained from https://smartasset.com/financial-advisor/permanent-portfolio */
+}
+
+/* body of web page*/
+.body-head
+{
+    color: gold;
+    text-align: center;
+}
+.body-head h1
+{
+    font-size: 55px;
+    margin-bottom: 35px;
+    padding: 0 10px 20px 10px;
+    border-right: 3px solid;
+    border-color: #fce138;
+    text-align: left;
+    color: #87cefa;
 }
