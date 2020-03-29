@@ -2,6 +2,6 @@
 
 ## Israel Berlanga's assignment for week two of coding bootcamp
 
-### www.linkedin.com/in/israel-berlanga-6734421a3
+### https://github.com/israel0688/professional-portfolio
 
 ### https://israel0688.github.io/professional-portfolio/
