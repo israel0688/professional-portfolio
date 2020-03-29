@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* applying styles to header*/
+header
+{
+    padding: 20px 35px;
+    background-color: black;
+    color: #87cefa;
+}
+
+header li
+{
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0;
+    list-style-type: none;
+}
+
+header nav
+{
+    float: right;
+    margin: 7px 0;
+}
+
+header a
+{
+    text-decoration: none;
+    color: #87cefa;
+}
+
+header nav ul li
+{
+    display: inline;
+    margin: 0 15px;
+}
+
+header h2 
+{
+    font-weight: bold;
+    margin: 0;
+    display: inline;
+}
