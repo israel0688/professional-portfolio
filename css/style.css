@@ -27,6 +27,12 @@ header li
     list-style-type: none;
 }
 
+/* hover over li*/
+header nav ul li:hover
+{
+    background-color:blue;
+}
+
 header nav
 {
     float: right;
@@ -77,6 +83,142 @@ header h2
     text-align: center;
     float: left;
     width: 20%;
-    padding-top: 10px;
+    padding-top: 5px;
+}
+
+/* coding for the contact section*/
+.body-head ul li
+{
+    display: inline;
+    margin: 10px 15px;
+    color: gold;
+}
+
+/* flex parent */
+.flex-container {
+    /* create flexbox */
+    display: flex;
+    /* instruct it to break onto next line if it runs out of space */
+    flex-wrap: wrap;
+    /* put all unused space between items */
+    justify-content: space-between;
+    width: 60%;
+  }
+
+/* Start of my work, flex child for run buddy*/
+.flex-item1 {
+    width: 40%;
+    /* rounded corners */
+    border-radius: 14px;
+    border: 4px solid black;
+    background-color: #393B4F;
+    font-size: 22px;
+    font-weight: bold;
+
+  /* put space between each one vertically */
+  margin-bottom: 15px;
+  margin-left: 10px;
+
+  /* for files in local images folder, use url('../images/file-name.jpg') */
+  background-image: url("../images/runbuddy-image.png");
+
+  /* tell background to fit box no matter what */
+  background-size: cover;
+
+  /* crop it at the center */
+  background-position: center;
+
+  /* padding top and bottom 20px, 0 for left/right */
+  padding: 20px 0;
+
+  /* set minimum heigh value so there's room */
+  min-height: 250px;
+
+  /* rather than use position...use flexbox and create column instead of row */
+  display: flex;
+  flex-direction: colum;
+}
+
+/* for text area inside of flex item */
+.flex-item1 span {
+    /* pushes element to bottom of flex item */
+    margin-top: auto;
+    width: 100%;
+    background-color: #A8ADBA;
+    color: #393B4F;
+    padding: 10px 5px;
+    text-align: center;
+  }
+
+/* Now working on Horiseon*/
+.flex-item2 {
+    /* make each one 45%, putting 10% between each element on the page */
+    width: 30%;
+    /* rounded corners */
+    border-radius: 14px;
+    border: 4px solid black;
+    background-color: #393B4F;
+    font-size: 22px;
+    font-weight: bold;
+
+  /* put space between each one vertically */
+  margin-bottom: 15px;
+
+  /* for files in local images folder, use url('../images/file-name.jpg') */
+  background-image: url("../images/horiseon.png");
+
+  /* tell background to fit box no matter what */
+  background-size: cover;
+
+  /* crop it at the center */
+  background-position: center;
+
+  /* padding top and bottom 20px, 0 for left/right */
+  padding: 20px 0;
+
+  /* set minimum heigh value so there's room */
+  min-height: 250px;
+
+  /* rather than use position...use flexbox and create column instead of row */
+  display: flex;
+  flex-direction: column;
+}
+
+/* for text area inside of flex item */
+.flex-item2 span {
+    /* pushes element to bottom of flex item */
+    margin-top: auto;
+    width: 100%;
+    background-color: #A8ADBA;
+    color: #393B4F;
+    padding: 10px 5px;
+    text-align: center;
+  }
+
+  /* hover over runbuddy and horiseon*/
+  .flex-container a:hover
+  {
+      background-color:blue;
+  }
+
+/* hover over contact info */
+.body-head ul li:hover
+{
+    background-color: blue;
+}
+
+.body-head li
+{
+    font-weight: bold;
+    font-size: 23px;
+    margin: 0;
+    list-style-type: none;
+    line-height: 5.0;
+}
+
+.body-head a
+{
+    text-decoration: none;
+    color: gold;
 }
 
