@@ -6,4 +6,4 @@
 
 ### https://israel0688.github.io/professional-portfolio/
 
-![alt "screenshot"](https://github.com/israel0688/professional-portfolio/images/portpic.png)
+![alt "screenshot"](https://github.com/israel0688/professional-portfolio/blob/master/images/portpic.png)
