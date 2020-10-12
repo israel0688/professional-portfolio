@@ -6,7 +6,7 @@
 ### This is my professional portfolio displaying my projects and contact information.  Click [here](https://israel0688.github.io/professional-portfolio/) to take a look at it!
 
 ## Screenshot Below
-![alt "screenshot"](https://github.com/israel0688/professional-portfolio/blob/master/images/portpic3.png)
+![alt "screenshot"](https://github.com/israel0688/professional-portfolio/blob/master/images/portpic3.PNG)
 
 ## Question
 ## Contact me at:
