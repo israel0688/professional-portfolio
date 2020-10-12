@@ -8,6 +8,6 @@
 ## Screenshot Below
 ![alt "screenshot"](https://github.com/israel0688/professional-portfolio/blob/master/images/portpic3.PNG)
 
-## Question
+## Questions
 ## Contact me at:
 ### Israel0688@gmail.com
